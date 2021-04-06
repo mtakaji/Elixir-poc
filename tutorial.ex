@@ -9,8 +9,7 @@ defmodule Game do
   attempt(guess)
 end
   
-  def attempt("viado") do
-  IO.puts "parabens, voce ganhou!"
+
 end
   def attempt(wrong_guess) do
   IO.puts "nao eh essa!"
