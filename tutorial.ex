@@ -1,6 +1,6 @@
 defmodule Game do
   def play do
-  hints = "Feio, Gordo , Cabecudo"
+  hints = "bonito, magro , Cabecudo"
   IO.puts "Hints: #{hints}"
 
   guess = IO.gets "Qual outra caracteritisca do Hugo?"
