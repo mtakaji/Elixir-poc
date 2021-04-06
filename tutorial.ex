@@ -8,8 +8,8 @@ defmodule Game do
   
   attempt(guess)
 end
-  
-
+   def attempt(wrong_guess) do
+  IO.puts "nao eh essa!"
 end
   def attempt(wrong_guess) do
   IO.puts "nao eh essa!"
